@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style2.css" /> 
+    <style>
+        .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9 {
+            position: relative;
+            width: 50%;
+        }
+    .overlay {
+      position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        right: 0;
+        background-color: #99e2d0;
+        color:white;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: 1.5s;
+          }
+          
+    .btn1:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn2:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn3:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn4:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn5:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn6:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn7:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn8:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .btn9:hover .overlay {
+      width: 100%;
+      left: 0;
+    }
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }</style>
+</head>
+<body>
+  <a href = "http://127.0.0.1:3000/index.html">
+    <img src="images/images/logo/ohmyfood.png">
+  </a>
+<div class="mainimg">
+    <img src="images/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" width="500" height="300">
+</div>
+<p>The Full Palette</p>
+    <!-- ENTREES-SECTION -->
+<h3>Entrees</h3>
+
+<div class="fade-in-buttons">
+<div class="checkcontainer">
+    <div class ="overlay">
+        <div class="check"><i class="fa-solid fa-check"></i>
+         </div>
+    </div>
+    <button class="btn1">
+        <p>Escargot</p>
+        <h6>with southern french spices</h6>
+        <p>25</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </Button>
+    <div class="space"></div>
+    <button class="btn2">
+        <p>Duck Foie Gras </p>
+        <h6>With black truffle shavings</h6>
+        <p>35</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+    <div class="space"></div>
+    <button class="btn3">
+        <p>Fried Egg</p>
+        <h6>Seasoned with truffle cream</h6>
+        <p>20</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+    <div class="space"></div>
+    </div>
+</div>
+</body>
+<!-- ENTREES-SECTION-END -->
+<!-- MAIN-DISH-SECTION-START -->
+<h3>Main Dish</h3>
+<div class="fade-in-buttons2">
+    <button class="btn4">
+        <p>Herb-encrusted steak</p>
+        <h6>with sliced veggies</h6>
+        <p>40</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+    <div class="space"></div>
+    <button class="btn5">
+        <p>Ox tail shepards pie</p>
+        <h6>with black truffle and pureed parsnips</h6>
+        <p>35</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+    <div class="space"></div>
+    <button class="btn6">
+        <p>Filet of sol</p>
+        <h6>with citrus dressing</h6>
+        <p>44</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+</div>
+<!-- MAIN-DISH-SECTION-END -->
+<!-- DESSERT-SECTION-START -->
+<div class="fade-in-buttons3">
+    <button class="btn7">
+        <p>Paris brest</p>
+        <h6>Revisted</h6>
+        <p>18</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+    <div class="space"></div>
+    <button class="btn8">
+        <p>Chocolate Macaroons</p>
+        <h6>with vanilla ice cream</h6>
+        <p>22</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+    <div class="space"></div>
+    <button class="btn9">
+        <p>Chocolate Mousse</p>
+        <h6>with spices and black truffle</h6>
+        <p>23</p>
+        <div class="overlay">
+            <div vlass="text"><i class="fa-solid fa-circle-check"></i></div>
+            </div>
+    </button>
+</div>
+<div class="space"></div>
+<!-- DESSERT-SECTION-END -->
+<button class="btn0">ORDER</button>
+<!-- Section-start: footer -->
+
+<div class ="footer">
+  <h3>ohmyfood</h3>
+   <h6><i class="fa-solid fa-utensils"></i></h6>
+  </i> 
+  <h6>suggest a restaurant</h6>
+  
+  <i class="fa-solid fa-handshake-angle"></i> 
+  <h6>become a partner</h6>
+  <h6>legal
+  contact</h6>
+  </div>
+  </body>

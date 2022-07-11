@@ -1,0 +1,82 @@
+.footer{
+  color: white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+  }
+  h3{
+    font-family: 'Shrikhand', cursive;
+  }
+.footer{
+    background-color:black;  
+}
+
+.btn:hover{
+    background-color: #ff79da;
+    transition: 1.5s
+}
+.btn2:hover {
+  background-color:#9356dc;
+  transition: 1.5s;
+} .btn3:hover {
+  background-color:#9356dc;
+  transition: 1.5s;
+}.btn4:hover {
+  background-color: #9356dc;
+  transition: 1.5s;
+}
+.like:hover {
+    color: #9356dc;
+}
+.like{
+    float:right
+}
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+  }
+  .header{
+      font-family:serif;
+      font-size: 50px;
+  }
+      .btn {
+          border: 1px pink;
+          background-color: #9356dc;
+          padding: 7px 26px;
+          font-size: 16px;
+          color:white;
+          cursor: pointer;
+          display: block;
+          border-radius: 40px;
+      }
+      .btn2 {
+          border: 1px pink;
+          padding: 20px 56px;
+          font-size: 16px;
+          color:black;
+          cursor: pointer;
+          display: block;
+          border-radius: 20px;
+          box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+      }
+      .btn3 {
+          border: 1px pink;
+          padding: 20px 56px;
+          font-size: 16px;
+          color:black;
+          cursor: pointer;
+          display: block;
+          border-radius: 20px;
+          box-shadow: 0px 3px 2px 2px rgb(160,160,160);
+      }
+      .btn4 {
+          border: 1px pink;
+          padding: 20px 56px;
+          font-size: 16px;
+          color:black;
+          cursor: pointer;
+          display: block;
+          border-radius: 20px;
+          box-shadow: 0px 3px 2px 2px rgb(160,160,160);
+      }   

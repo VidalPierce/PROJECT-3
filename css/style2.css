@@ -1,0 +1,265 @@
+.footer{
+  color: white;
+}
+.footer{
+  background-color:black;  
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  font-family: 'Shrikhand', cursive;
+}
+.btn1, .btn2, .btn3{
+  position:relative;
+  animation: cardFadeIn ease-out forwards;
+  animation-iteration-count:1;
+}
+
+.btn1{
+  animation-duration: 2s;
+}
+
+.btn2{
+  animation-duration: 2s;
+}
+
+
+.btn3{
+  animation-duration: 2s;
+}
+  
+  @keyframes cardFadeIn {
+    0% {
+      top:40px; opacity: 0;
+      background-color: #F1F1F1; 
+      box-shadow: none;
+    }
+    100% {
+      top:0px; opacity: 1;
+      background-color: white; 
+    }
+  }
+
+  .btn1, .btn2, .btn3{
+    border: none;
+    padding: 0px 3%;
+    width: 95%;
+    height:200px;
+    font-size: 16px;
+    margin: 10px auto;
+    /* color:black; */
+    cursor: pointer;
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px #b2b0b0;
+}
+  .space {
+    height: 4px;
+    height: auto;
+    background-color: red;
+    display: inline-block;
+  }
+  
+
+
+/* .card-btn1 > h2, .card-btn2 > h2, .card-btn3 > h2{
+  color:black;
+  float:right;
+} */
+
+
+h1.item-name{
+  /* color:red; */
+  text-align: left;;
+  padding:10px;
+   /* border:1px solid red; */
+}
+
+
+h2.des, h1.price{
+  /* border: 1px solid red; */
+  float:left;
+  height: 50px;
+  padding:10px;
+  /* border:1px solid red; */
+}
+
+h2.des{
+  width: 92.02%;
+  text-align: left;;
+}
+h1.price{
+  color:black;
+  /* float:right; */
+}
+
+
+/* @-webkit-keyframes pulse {
+  0%   { -webkit-transform: scale(1)   ; opacity: 1;    }
+  50%  { -webkit-transform: scale(0.75); opacity: 0.25; }
+  100% { -webkit-transform: scale(1)   ; opacity: 1;    }
+} */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .btn1, .btn2, .btn3{
+      /* width:95%; */
+      /* background-color: #27ad85!important; */
+      height: auto;;
+      height: 200px;
+    }
+    h2.des{
+      width: 77.3%;
+      /* font-size: 1.2rem; */
+      height:auto;
+      /* word-wrap: break-word; */
+    }
+    h1.price{
+      color:black;
+      /* float:right; */
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .btn1, .btn2, .btn3{
+      /* width:95%; */
+      /* background-color: rgb(14, 78, 134)!important; */
+      height: auto;;
+      height: 200px;
+   
+    }
+    h2.des{
+      width: 87.3%;
+      /* font-size: 1.2rem; */
+      height:auto;
+      /* word-wrap: break-word; */
+    }
+    h1.price{
+      color:black;
+      /* float:right; */
+    }
+}
+  .space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+  }
+  
+
+.btn1{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+
+.btn2{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn3{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn4{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn5{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn6{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn7{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn8{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn9{
+    border: 1px pink;
+    padding: 20px 56px;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 2px rgb(160, 160, 160);
+}
+.btn0{
+    border: 1px pink;
+          background-color: #9356dc;
+          padding: 7px 26px;
+          font-size: 16px;
+          color:white;
+          cursor: pointer;
+          display: block;
+          border-radius: 40px;
+}
+
